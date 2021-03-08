@@ -142,7 +142,7 @@ nav li a:hover {
     grid-template-columns: 1fr 1fr;
     margin-top: 8rem;
     margin-bottom: 11rem;
-    .luis-info {
+    .shoejack-info {
         margin-right: 4rem;
         .name {
             color: $secondaryColor;
@@ -251,7 +251,7 @@ nav li a:hover {
 
 /*Hero section  */
 
-.me {
+.banner {
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -259,7 +259,7 @@ nav li a:hover {
     overflow-x: hidden;
 }
 
-.luis-info {
+.shoejack-info {
     .title {
         margin-bottom: 2rem;
         margin-top: 2rem;
@@ -274,23 +274,10 @@ nav li a:hover {
     margin-left: 14rem;
 }
 
-.circle {
-    animation: circleAnim 1.4s ease-in-out infinite alternate;
-}
 
-@keyframes circleAnim {
-    from {
-        transform: translateY(-20%);
-    }
-    to {
-        transform: translateY(30%);
-    }
-}
+/*battle section  */
 
-
-/*projects section  */
-
-.projects-title {
+.battle-title {
     display: flex;
     margin: auto;
     align-self: center;
@@ -304,7 +291,7 @@ nav li a:hover {
     }
 }
 
-.projects {
+.battle-drives {
     width: 90%;
     margin: auto;
     display: flex;
@@ -395,53 +382,16 @@ footer ul {
 /*Media query for large section  */
 
 @media (max-width:1050px) {
-    .doodles {
-        width: 10rem;
-        height: 10rem;
-        position: absolute;
-        top: 20%;
-        right: 0%;
-        bottom: 0;
-    }
-    .doodles2 {
-        width: 10rem;
-        height: 10rem;
-        position: absolute;
-        bottom: 0;
-        left: 0%;
-    }
-    .doodles3 {
-        width: 2.5rem;
-        height: 2.5rem;
-        position: absolute;
-        bottom: 10%;
-        left: 4%;
-    }
-    .doodles4 {
-        display: none;
-    }
-    .doodles5 {
-        display: none;
-    }
     br {
         display: none;
     }
-    .me {
-        width: 35rem;
-        height: 35rem;
+    .banner {
+        width: 60rem;
+        height: 40rem;
     }
 }
 
 @media only screen and (min-width: 1050px) {
-    .dots {
-        display: inline;
-        position: absolute;
-        bottom: 0;
-        top: 0;
-        width: 19rem;
-        height: 12rem;
-        z-index: -1;
-    }
     .main-head {
         width: 95%;
         margin: 0 0 0 auto;
@@ -496,7 +446,7 @@ footer ul {
         grid-template-columns: 1fr 1fr;
         margin-top: 8rem;
         margin-bottom: 9rem;
-        .luis-info {
+        .shoejack-info {
             grid: 1;
             justify-self: end;
             .title {
@@ -508,59 +458,12 @@ footer ul {
             }
         }
     }
-    .me {
+    .banner {
         width: 60rem;
         height: 40rem;
     }
-    .doodles {
-        width: 15rem;
-        height: 15rem;
-        position: absolute;
-        top: 14%;
-        bottom: 0;
-    }
-    .doodles2 {
-        width: 15rem;
-        height: 15rem;
-        position: absolute;
-        bottom: 0;
-        left: 10%;
-    }
-    .doodles3 {
-        width: 5rem;
-        height: 5rem;
-        position: absolute;
-        bottom: 17%;
-        left: 15%;
-    }
-    .doodles4 {
-        width: 5rem;
-        height: 5rem;
-        position: absolute;
-        bottom: 35%;
-        right: 14%;
-    }
-    .doodles5 {
-        width: 5rem;
-        height: 5rem;
-        position: absolute;
-        bottom: 70%;
-        left: 17%;
-        display: none;
-    }
     .scroll-img {
         text-align: center;
-    }
-    .circle {
-        animation: circleAnim 1.4s ease-in-out infinite alternate;
-    }
-    @keyframes circleAnim {
-        from {
-            transform: translateY(-20%);
-        }
-        to {
-            transform: translateY(30%);
-        }
     }
     .elena {
         margin-bottom: 10rem;
@@ -646,17 +549,8 @@ footer ul {
 
 /*Media query for tablets and mid sized screens section  */
 
-@media only screen and (max-width: 768px) {
-    .doodles2 {
-        display: none;
-    }
-    .doodles3 {
-        display: none;
-    }
-}
-
 @media only screen and (max-width: 620px) {
-    .me {
+    .banner {
         width: 25rem;
         height: 25rem;
     }
@@ -686,10 +580,10 @@ footer ul {
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
-        .luis-info {
+        .shoejack-info {
             text-align: center;
             margin-right: 0rem;
-            .luis-bio {
+            .shoejack-bio {
                 font-size: 3.2rem;
             }
             .title {
@@ -712,10 +606,10 @@ footer ul {
         bottom: 0;
     }
     .hero {
-        .luis-info {
+        .shoejack-info {
             text-align: center;
             margin-right: 0rem;
-            .luis-bio {
+            .shoejack-bio {
                 font-size: 2.4rem;
             }
             .title {
@@ -751,7 +645,7 @@ footer ul {
 }
 
 .about-me p {
-    font-size: 2.4rem;
+    font-size: 1.6rem;
     margin-bottom: 4rem;
 }
 
@@ -762,26 +656,7 @@ footer ul {
     }
 }
 
-.my-values p {
-    font-size: 1.6rem;
-}
-
-.my-values h2 {
-    font-size: 3.2rem;
-    margin-top: 4rem;
-}
-
-.my-values h3 {
-    font-size: 2.4rem;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-}
-
-.last-value {
-    margin-bottom: 4rem;
-}
-
-.me-about {
+.logo-about {
     width: 100%;
     padding-top: 0rem;
     margin-bottom: 0rem;
@@ -789,22 +664,18 @@ footer ul {
     max-height: 620px;
 }
 
-.my-skills h2 {
-    font-size: 3.2rem;
-}
-
-.skills-title {
+.characters-title {
     font-size: 3.2rem;
     margin-top: 4rem;
 }
 
-.skills-container {
+.characters-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 4rem;
 }
 
-.skills-pic {
+.characters-pic {
     width: 100%;
     margin-top: 4rem;
     margin-bottom: 4rem;
@@ -818,12 +689,12 @@ footer ul {
     }
 }
 
-.skills-pic1 {
+.characters-pic1 {
     grid-column-start: 1/2;
 }
 
 @media only screen and (max-width: 425px) {
-    .skills-container {
+    .characters-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -852,40 +723,6 @@ footer ul {
 .post-style {
     margin-bottom: 4rem;
     padding-left: 2rem;
-}
-
-//adidas redesign
-.adidas-design {
-    width: 100%;
-    padding-top: 0rem;
-    margin-bottom: 4rem;
-    max-width: 1000px;
-    max-height: 1020px;
-}
-
-.design-title {
-    font-size: 2.4rem;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
-}
-
-.user-question li {
-    font-size: 1.6rem;
-    list-style: initial;
-    margin-left: 2rem;
-}
-
-.user-question {
-    margin-bottom: 4rem;
-}
-
-.reflection-info {
-    margin-top: 4rem;
-}
-
-.backto-top {
-    max-width: 3rem;
-    max-height: 3rem;
 }
 
 #myBtn {
