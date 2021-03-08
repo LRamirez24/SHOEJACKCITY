@@ -215,40 +215,6 @@ nav li a:hover {
 }
 
 
-/* 
-
-.meet {
-    display: flex;
-    font-weight: bold;
-    margin: 0 auto;
-    margin-bottom: 1.4rem;
-    margin-left: 7rem;
-    span {
-        margin-left: 1rem;
-        margin-top: 0.4rem;
-    }
-    h1 {
-        background: -webkit-gradient(linear, left top, right top, from( #0cb9e4), to( #e055cc));
-        background: linear-gradient(left, #0cb9e4, #e055cc);
-        -webkit-background-clip: text;
-        -moz-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        -moz-text-fill-color: transparent;
-        font-size: 5.6rem;
-    }
-    &:hover {
-        text-transform: uppercase;
-    }
-    span {
-        flex-direction: column;
-        font-size: 4rem;
-    }
-}
-
-
-*/
-
-
 /*Hero section  */
 
 .banner {
@@ -563,12 +529,6 @@ footer ul {
 /*Media query for small and mid sized phones section  */
 
 @media only screen and (max-width: 425px) {
-    .doodles2 {
-        display: none;
-    }
-    .doodles3 {
-        display: none;
-    }
     .intro-text2 h1 {
         color: $secondaryColor;
         font-size: 5.6rem;
@@ -597,14 +557,6 @@ footer ul {
 }
 
 @media only screen and (max-width: 320px) {
-    .doodles {
-        width: 10rem;
-        height: 10rem;
-        position: absolute;
-        top: 24%;
-        right: 0%;
-        bottom: 0;
-    }
     .hero {
         .shoejack-info {
             text-align: center;
