@@ -39,6 +39,7 @@ h1 {
 
 p {
     font-size: 2.4rem;
+    line-height: 1.8;
 }
 
 textarea {
@@ -117,6 +118,9 @@ textarea {
             background-color: black;
             color: white;
         }
+        &:focus {
+            color: black;
+        }
     }
 }
 
@@ -160,6 +164,9 @@ nav li a:hover {
             &:hover {
                 background-color: #1f253d;
                 color: white;
+            }
+            &:focus {
+                background-color: #1f253d;
             }
         }
     }
@@ -479,6 +486,9 @@ footer ul {
                 background-color: black;
                 color: white;
             }
+            &:focus {
+                background-color: black;
+            }
         }
     }
     .hero {
@@ -741,7 +751,7 @@ footer ul {
 }
 
 .about-me p {
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     margin-bottom: 4rem;
 }
 
@@ -896,5 +906,8 @@ footer ul {
     &:hover {
         background-color: #3E4A7A;
         color: white;
+    }
+    &:focus {
+        background-color: #3E4A7A;
     }
 }

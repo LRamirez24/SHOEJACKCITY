@@ -38,6 +38,7 @@ h1 {
 
 p {
   font-size: 2.4rem;
+  line-height: 1.8;
 }
 
 textarea {
@@ -152,6 +153,10 @@ textarea {
   color: white;
 }
 
+.main-head .btn-contact:focus {
+  color: black;
+}
+
 nav li a:hover {
   text-transform: uppercase;
 }
@@ -202,6 +207,10 @@ nav li a:hover {
 .hero .luis-info .btn-booknow:hover {
   background-color: #1f253d;
   color: white;
+}
+
+.hero .luis-info .btn-booknow:focus {
+  background-color: #1f253d;
 }
 
 .dropdown {
@@ -587,6 +596,9 @@ footer ul {
     background-color: black;
     color: white;
   }
+  .main-head .btn-contact:focus {
+    background-color: black;
+  }
   .hero {
     display: -ms-grid;
     display: grid;
@@ -892,7 +904,7 @@ footer ul {
 }
 
 .about-me p {
-  font-size: 1.6rem;
+  font-size: 2.4rem;
   margin-bottom: 4rem;
 }
 
@@ -1065,5 +1077,9 @@ footer ul {
 #myBtn:hover {
   background-color: #3E4A7A;
   color: white;
+}
+
+#myBtn:focus {
+  background-color: #3E4A7A;
 }
 /*# sourceMappingURL=style.css.map */
