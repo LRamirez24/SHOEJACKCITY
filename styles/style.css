@@ -632,8 +632,9 @@ footer ul {
 /*Media query for tablets and mid sized screens section  */
 @media only screen and (max-width: 620px) {
   .banner {
-    width: 25rem;
+    width: 36rem;
     height: 25rem;
+    margin-left: 0rem;
   }
   br {
     display: none;
